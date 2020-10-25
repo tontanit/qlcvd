@@ -1,0 +1,248 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+  table, tr, th, td {
+    border-collapse: collapse;
+    
+  }
+
+  a:link{
+    color: blue;
+    text-decoration: none;
+}
+ 
+a:visited{
+    color: black;
+    text-decoration: underline;
+}
+ 
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+ 
+a:active{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#layout{
+    width: 1300px;
+    height: 1000px;
+    border: 1px solid red;
+    margin: auto;
+
+}
+
+#header{
+    width: 996px;
+    height: 120px;
+    border: 1px solid rgb(25, 0, 255);
+    margin: auto;
+    text-align: center;
+      
+}
+
+#content-timkiem{
+    width: 100%;
+    height: 130px;
+    border: 1px solid rgb(233, 89, 6);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.form-control {
+    margin:auto;
+    display: block;
+    width: 90%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#content-timkiem input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin:3px;
+}
+
+ 
+#content-timkiem input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.tieude_timkiem {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    height: 35px;
+    padding-top: 5px;
+    color: #131313;
+    background-color: #e7e5e4;
+    letter-spacing: .15em;
+    
+}
+  
+
+
+#header h2{
+    padding-top: 10px;
+    font-weight: bold;
+    color: 	#1E90FF;
+    font-size: 50px;
+}
+
+#content{
+    width: 100%;
+    height: 650px;
+    border: 1px solid rgb(25, 0, 255);
+    margin: auto;
+    
+}
+
+/* ĐỊNH DẠNG TRANG INDEX.php */
+#content-table{
+    width: 100%;
+    margin: auto;
+    
+}
+
+
+/*
+  tr:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+*/
+
+.table-index{
+    width: 100%;
+}
+.table-index th, td {
+    border: 1px solid gray;
+    height: 40px;
+   
+    
+}
+
+.table-index th{
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    background-color: gray;
+    color: white;
+}
+
+.table-index td{
+    text-align: center;
+}
+
+
+/* Định dạng trang themvbden.php */
+.content-table-2{
+    width: 860px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.content-table-2 th{
+    width: 130px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0px;
+    resize: none;
+    text-align: right;
+    padding-right: 5px;
+    background-color: gray;
+    color: white;
+}
+
+#content-table input{
+    width: 724px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0px;
+    resize: none;
+    text-align: left;
+}
+
+#content-table select{
+    width: 724px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0px;
+    resize: none;
+}
+
+#content-table textarea{
+    width: 724px;
+    height: 92px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 0px;
+    resize:none;
+}
+ 
+#content-table input[type=submit] {
+    width: 80px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+
+ 
+#content-table input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+#footer{
+    width: 996px;
+    height: 150px;
+    border: 1px solid rgb(25, 0, 255);
+    margin: auto;
+    
+}
+
+
+
