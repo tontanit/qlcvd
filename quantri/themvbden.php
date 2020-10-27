@@ -67,6 +67,9 @@
                                         }
                                     ?>
                                 </select>
+                                
+                                <a class="lienket" href="themcqbh.php">Thêm</a>
+
                             </td>
                         </tr>
                         <tr>
@@ -92,6 +95,9 @@
                                         }
                                     ?>
                                 </select>
+
+                                <a class="lienket" href="themloaivb.php">Thêm</a>
+
                             </td>
                             
                         </tr>

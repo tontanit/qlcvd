@@ -199,7 +199,7 @@ a:active{
 }
 
 #content-table select{
-    width: 724px;
+    width: 638px;
     height: 30px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -234,7 +234,28 @@ a:active{
     background-color: #45a049;
 }
 
-
+.lienket{       
+    background-color: white;
+    color: black;
+    border: 1px solid #73AD21;
+    border-radius:5px;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode";
+    margin: 2px 2px 2px 8px;
+    
+}
+.lienket:hover{
+    background-color: #73AD21;
+    color:white;
+}
+.lienket:active{
+    background-color: green;
+    border-color: green;
+}
 
 #footer{
     width: 996px;

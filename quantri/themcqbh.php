@@ -5,15 +5,17 @@
 ?>
 <?php
     if (isset($_POST['btnthem'])){
-        $maloai = $_POST['maloai'];
-        $tenloai= $_POST['tenloai'];
+        $mabp = $_POST['mabp'];
+        $tenbp= $_POST['tenbp'];
+        $tenlanhdao= $_POST['tenlanhdao'];
+        $dt= $_POST['dt'];
        
 
-    $qr = "INSERT INTO `loaicv` (`maloai`, `tenloai`) 
-            VALUES ('$maloai', '$tenloai') ";
+    $qr = "INSERT INTO `cqbh` (`mabp`, `tenbp`, `tenlanhdao`, `dt`) 
+            VALUES ('$mabp', '$tenbp', '$tenlanhdao', '$dt'); ";
 
      mysqli_query($link, $qr);
-     header ('location: danhsach_loaicv.php');
+     header ('location: danhsach_cq.php');
     }
 
 
@@ -31,7 +33,7 @@
 <body>
     <div id="layout">
         <div id="header">
-            <h2> THÊM LOẠI VĂN BẢN</h2>
+            <h2> THÊM CƠ QUAN BAN HÀNH VĂN BẢN</h2>
         </div>
 
 
@@ -42,11 +44,23 @@
                 <form action="" method="post">
                     <table class="content-table-2">
                         <tr>
-                            <th>Mã văn bản</th>
-                            <td><input class="input-date-2" type="text" name="maloai" id="" maxlength="80"></td>
+                            <th>Mã cơ quan</th>
+                            <td><input type="text" name="mabp" id="" maxlength="80"></td>
+                        </tr>
+
                         <tr>
-                             <th>Tên loại văn bản</th>
-                             <td><input class="input-text-2" type="text" name="tenloai" id="" maxlength="80"></td>
+                             <th>Tên cơ quan</th>
+                             <td><input type="text" name="tenbp" id="" maxlength="80"></td>
+                        </tr>
+
+                        <tr>
+                             <th>Tên Lãnh đạo</th>
+                             <td><input type="text" name="tenlanhdao" id="" maxlength="80"></td>
+                        </tr>
+
+                        <tr>
+                             <th>Điện thoại</th>
+                             <td><input type="text" name="dt" id="" maxlength="80"></td>
                         </tr>
                       
                         <tr style="text-align:center">
